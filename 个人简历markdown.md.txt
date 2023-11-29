@@ -10,7 +10,7 @@
 - **21岁**
 
 ## 4.个人照片
-![女生图片](C:\Users\nacld\Desktop\大学资料\女生图片.jpg)
+![avatar](C:\Users\nacld\Desktop\大学资料\女生图片.jpg)
 
 ## 5.专业
 - **计算机科学**
