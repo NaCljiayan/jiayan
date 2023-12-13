@@ -1,0 +1,30 @@
+#     买源码就到 《奇趣资源优选》 
+#     网址：https://shop379896684.taobao.com   
+#     更多优质源码，请访问：http://www.qiquCode.com
+
+
+
+server:
+  port: 8085
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/rainng_course?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+    username: root
+    password: root
+#  redis:
+#    host: localhost
+#    port: 6379
+#  session:
+#    store-type: redis
+#    timeout: 86400
+  jackson:
+    time-zone: Asia/Shanghai
+#  data:
+#    mongodb:
+#      uri: mongodb://localhost:27017/rainng_course
+
+mybatis-plus:
+  mapper-locations: classpath:mapping/*.xml
+  type-aliases-package: com.rainng.coursesystem.model
